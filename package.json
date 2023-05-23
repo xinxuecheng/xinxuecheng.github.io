@@ -2,6 +2,7 @@
   "name": "blog",
   "version": "1.0.0",
   "author": "reco_luan",
+  "license": "MIT",
   "scripts": {
     "blogs:dev": "vuepress dev blogs --open --host \"localhost\" --temp .temp",
     "blogs:build": "vuepress build blogs"
