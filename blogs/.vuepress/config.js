@@ -1,5 +1,5 @@
 module.exports = {
-  base: "/blog/", // 因为是要发布在https://<USERNAME>.github.io/<REPO>/，所以需要设置base
+  base: "/", // 因为是要发布在https://<USERNAME>.github.io/<REPO>/，所以需要设置base
   title: "博客",
   description: "Welcome to my blog",
   dest: "public",
