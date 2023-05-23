@@ -49,17 +49,17 @@ module.exports = {
         items: [
           {
             text: "Github",
-            link: "https://github.com/underwater133",
+            link: "https://github.com/xinxuecheng",
             icon: "reco-github",
           },
           {
             text: "CSDN",
-            link: "https://blog.csdn.net/weixin_45732455",
+            link: "https://blog.csdn.net",
             icon: "reco-csdn",
           },
           {
             text: "Bilibili",
-            link: "https://space.bilibili.com/11340406",
+            link: "https://www.bilibili.com/",
             icon: "reco-bilibili",
           },
         ],
@@ -81,10 +81,10 @@ module.exports = {
     },
     friendLink: [
       {
-        title: "午后南杂",
+        title: "somecore",
         desc: "Enjoy when you can, and endure when you must.",
-        email: "1156743527@qq.com",
-        link: "https://www.recoluan.com",
+        email: "",
+        link: "https://www.somecore.com",
       },
       {
         title: "vuepress-theme-reco",
@@ -98,7 +98,7 @@ module.exports = {
     search: true,
     searchMaxSuggestions: 10,
     lastUpdated: "Last Updated",
-    author: "Azusa",
+    author: "xinxuecheng",
     authorAvatar: "/Ayaka.jpg",
     record: "xxxx",
     startYear: "2023",

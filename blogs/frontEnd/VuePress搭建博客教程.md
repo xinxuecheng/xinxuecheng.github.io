@@ -162,14 +162,14 @@ module.exports = {
 
 我们先把自己的代码提到 github 上。
 
-在 github 上创建一个名称为 azusaWebBlog 的仓库，然后在本地初始化 git，链接到远程仓库上，然后就可以提交项目了。
+在 github 上创建一个名称为 xinxuechengWebBlog 的仓库，然后在本地初始化 git，链接到远程仓库上，然后就可以提交项目了。
 
 ```
 git init
 git add .
 git commit -m "初始化网站"
 git branch -M main
-git remote add origin https://github.com/underwater133/azusaWebBlog.git // 对应你自己的仓库地址
+git remote add origin https://github.com/xinxuecheng/xinxuechengWebBlog.git // 对应你自己的仓库地址
 git push -u origin main
 ```
 
@@ -179,7 +179,7 @@ git push -u origin main
 
 ```js
 module.exports = {
-  "base": "/azusaWebBlog/", // 仓库名称
+  "base": "/xinxuechengWebBlog/", // 仓库名称
   ...
 }
 ```
@@ -207,7 +207,7 @@ git commit -m 'deploy'
 # git push -f git@github.com:<USERNAME>/<USERNAME>.github.io.git master
 
 # 如果发布到 https://<USERNAME>.github.io/<REPO>
-git push -f git@github.com:underwater133/azusaWebBlog.git master:gh-pages
+git push -f git@github.com:xinxuecheng/xinxuechengWebBlog.git master:gh-pages
 
 cd -
 ```
@@ -224,4 +224,4 @@ cd -
 
 这个项目有很多值得学习的地方，现在我也只是简单使用这个框架，主要还是拿来当博客用的，能记录东西就好，有时间再继续学习。
 
-最后，EL PSY CONGROO！
+最后，for member！
