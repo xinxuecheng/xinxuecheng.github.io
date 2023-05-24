@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "blogs:dev": "vuepress dev blogs --open --host \"localhost\" --temp .temp",
-    "blogs:build": "vuepress build blogs"
+    "blogs:build": "vuepress build blogs && cp ./blogs/.vuepress/public/island.jpg ./public"
   },
   "devDependencies": {
     "vuepress": "1.9.7",
